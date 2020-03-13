@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<link type="text/css" rel="stylesheet"   href="/static/css/miestilo.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Noticias-Ronnie</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/home">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/usuarios">Usuarios</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/registro">Registro <span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Registro de Usuario</h2>
+            <form>
+                
+                <div class="form-row">
+                    
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                    </div>
+                  </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">Nombre</label>
+                          <input type="text" class="form-control" id="inputCity" placeholder="Nombre">
+                        </div>
+                       
+                        <div class="form-group col-md-1">
+                          <label for="inputZip">Edad</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="form-group col-md-6">
+                        <label for="inputZip">Sexo</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="Masculino" id="check_masculino" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Masculino</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="Femenino" id="check_femenino" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Femenino</label>
+                          </div>
+                          </div>
+                      </div>    
+
+             
+             
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">Telefono</label>
+                    <input type="tel" class="form-control" id="inputCity" placeholder="Telefono">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">Ciudad</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Santo domingo</option>
+                      <option>Santiago</option>
+                      <option>La vega</option>
+                      <option>Higuey</option>
+                      <option>Barahona</option>
+                    </select>
+                  </div>
+                
+                </div>
+
+
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Recibir correos Informativos
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Registrar</button>
+              </form>
+        </div>
+  
+</div>
+    
+</body>
+</html>
